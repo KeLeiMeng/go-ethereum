@@ -7,7 +7,7 @@ smallest of fixes!
 If you'd like to contribute to go-ethereum, please fork, fix, commit and send a 
 pull request for the maintainers to review and merge into the main code base. If
 you wish to submit more complex changes though, please check up with the core 
-devs first on [our gitter channel](https://gitter.im/ethereum/go-ethereum) to 
+devs first on [our Discord channel](https://discord.gg/wKkjUnQ) to 
 ensure those changes are in line with the general philosophy of the project 
 and/or get some early feedback which can make both your efforts much lighter as
 well as our review and merge procedures quick and simple.
@@ -16,25 +16,16 @@ well as our review and merge procedures quick and simple.
 
 Please make sure your contributions adhere to our coding guidelines:
 
- * Code must adhere to the official Go 
-[formatting](https://golang.org/doc/effective_go.html#formatting) guidelines 
-(i.e. uses [gofmt](https://golang.org/cmd/gofmt/)).
- * Code must be documented adhering to the official Go 
-[commentary](https://golang.org/doc/effective_go.html#commentary) guidelines.
+ * Code must adhere to the Google C++ 
+[Style Guide](https://google.github.io/styleguide/cppguide.html) 
  * Pull requests need to be based on and opened against the `master` branch.
  * Commit messages should be prefixed with the package(s) they modify.
-   * E.g. "eth, rpc: make trace configs optional"
+   * E.g. "SnapScale, chain: "
 
 ## Can I have feature X
 
-Before you submit a feature request, please check and make sure that it isn't 
-possible through some other means. The JavaScript-enabled console is a powerful 
-feature in the right hands. Please check our 
-[Wiki page](https://github.com/ethereum/go-ethereum/wiki) for more info
-and help.
+Before you submit a feature request, please check up with the core 
+devs first on [our Discord channel](https://discord.gg/wKkjUnQ) and make sure that it isn't 
+possible through some other means. 
 
-## Configuration, dependencies, and tests
 
-Please see the [Developers' Guide](https://github.com/ethereum/go-ethereum/wiki/Developers'-Guide)
-for more details on configuring your environment, managing project dependencies
-and testing procedures.
